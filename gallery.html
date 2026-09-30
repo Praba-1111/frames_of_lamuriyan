@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gallery - Visual Stories 📷</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="gallery.css" />
+</head>
+<body>
+  <div class="gallery-container">
+    <header class="gallery-header">
+      <h1>Visual Stories</h1>
+      <p>Click on any frame to read the story behind it.</p>
+      <a href="index.html" class="back-link">← Back to Home</a>
+    </header>
+
+    <div class="gallery-grid" id="galleryGrid">
+      <!-- Gallery items will be populated by JS -->
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal" id="imageModal">
+    <span class="close-btn" id="closeModal">&times;</span>
+    <div class="modal-content-wrapper">
+      <div class="flip-card">
+        <div class="flip-card-inner" id="flipCardInner">
+          <!-- Front side: Image -->
+          <div class="flip-card-front">
+            <img src="" id="modalImg" alt="Selected Image">
+          </div>
+          <!-- Back side: Story -->
+          <div class="flip-card-back">
+            <div class="story-content">
+              <h2 id="modalTitle">Story Title</h2>
+              <p id="modalStory">Story text goes here...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="turn-btn btn-gold" id="turnBtn">Turn Image</button>
+    </div>
+  </div>
+
+  <script src="gallery.js?v=2"></script>
+</body>
+</html>
