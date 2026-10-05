@@ -42,12 +42,11 @@ const galleryData = [
     title: "Between Sun and Clouds",
     story: "The hills of Anaikatti looked different in the soft evening light, with the sun slowly moving behind the clouds. Around 4:30 PM, the gentle sunlight touched the hills while the clouds added depth and mood to the scene. I captured this moment where the changing light made the familiar hills feel calm, dramatic, and beautifully alive."
   }
-  /*{
-    id: 6,
-    src: "logo.jpeg",
-    title: "Sample Title",
-    story: "Sample Story"
-  },*/
+  id: 8, 
+  src: "photohraphs/Kerala_village_forest.jpeg",
+  title: "Through Kerala’s Green Roads", 
+  story: "While travelling through Kerala, I came across a quiet road surrounded by the deep green of the reserve forest. A local auto approaching through the trees added a sense of life and movement to the peaceful landscape. I captured this moment where the simple journey of everyday life met the untouched beauty of Kerala’s forests." 
+},
   /*{
     id: 7,
     src: "logo.jpeg",
