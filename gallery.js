@@ -41,7 +41,7 @@ const galleryData = [
     src: "photohraphs/Anaikatti_Hill.jpeg",
     title: "Between Sun and Clouds",
     story: "The hills of Anaikatti looked different in the soft evening light, with the sun slowly moving behind the clouds. Around 4:30 PM, the gentle sunlight touched the hills while the clouds added depth and mood to the scene. I captured this moment where the changing light made the familiar hills feel calm, dramatic, and beautifully alive."
-  }
+  },
   id: 8, 
   src: "photohraphs/Kerala_village_forest.jpeg",
   title: "Through Kerala’s Green Roads", 
@@ -52,7 +52,7 @@ const galleryData = [
     src: "logo.jpeg",
     title: "Sample Title",
     story: "Sample Story"
-  }*/
+  },*/
   /*{
     id: 6,
     src: "logo.jpeg",
@@ -64,7 +64,31 @@ const galleryData = [
     src: "logo.jpeg",
     title: "Sample Title",
     story: "Sample Story"
-  }*/
+  },*/
+  /*{
+    id: 7,
+    src: "logo.jpeg",
+    title: "Sample Title",
+    story: "Sample Story"
+  },*/
+  /*{
+    id: 7,
+    src: "logo.jpeg",
+    title: "Sample Title",
+    story: "Sample Story"
+  },*/
+  /*{
+    id: 7,
+    src: "logo.jpeg",
+    title: "Sample Title",
+    story: "Sample Story"
+  },*/
+  /*{
+    id: 7,
+    src: "logo.jpeg",
+    title: "Sample Title",
+    story: "Sample Story"
+  },*/
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
