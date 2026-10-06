@@ -69,11 +69,10 @@ a {
 
 .section {
   position: relative;
-  min-height: 100svh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-block: clamp(4rem, 10vh, 8rem)
+  padding-block: clamp(2.5rem, 6vh, 5rem)
 }
 
 /* ---------- ambience: mouse glow + particles ---------- */
@@ -116,6 +115,7 @@ a {
 
 /* ================= HERO ================= */
 .hero {
+  min-height: 100svh;
   align-items: center;
   text-align: center;
   overflow: hidden;
@@ -416,7 +416,7 @@ blockquote {
   justify-content: center;
   gap: 1.6rem;
   text-align: center;
-  min-height: 60vh
+  padding-block: 2rem;
 }
 
 .gallery-cta h2 {
@@ -520,7 +520,7 @@ blockquote {
   }
 
   .contact-cards {
-    grid-template-columns: repeat(3, 1fr)
+    grid-template-columns: repeat(2, 1fr)
   }
 }
 
@@ -545,7 +545,7 @@ blockquote {
 
   .section {
     min-height: auto;
-    padding-block: clamp(3.5rem, 12vh, 6rem)
+    padding-block: clamp(2rem, 5vh, 4rem)
   }
 
   .hero {
