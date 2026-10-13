@@ -49,12 +49,12 @@ const galleryData = [
     story: "While travelling through Kerala, I came across a quiet road surrounded by the deep green of the reserve forest. A local auto approaching through the trees added a sense of life and movement to the peaceful landscape. I captured this moment where the simple journey of everyday life met the untouched beauty of Kerala’s forests." 
 
 },
-  {
+    /*{
     id: 9,
     src: "photohraphs/night_light_highway.jpeg",
     title: "Into the Mist",
     story: "The bridge lights glowed through the soft night fog, creating a quiet, cinematic atmosphere. I captured this moment at 1 AM, where the fading mist and distant lights turned an ordinary bridge into a scene full of mystery and beauty."
-  },
+  },*/
   /*{
     id: 6,
     src: "logo.jpeg",
