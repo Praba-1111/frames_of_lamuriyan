@@ -13,7 +13,7 @@ const galleryData = [
     story: "The gentle movements of Mohiniyattam caught my eye, especially the elegance in the dancer’s posture and expression. The flowing costume and subtle movement created a sense of calm and beauty within the frame. I captured this moment to preserve the quiet grace that made the performance so captivating."
   },
   {
-    id: 3,
+    id: 9,
     src: "photohraphs/Stranger_Anaikatti.jpeg",
     title: "A Quiet Moment",
     story: "An old man sitting quietly on the ground caught my attention in the middle of an ordinary day. There was something peaceful in his stillness, as if he was lost in his own thoughts. I captured the moment because sometimes the simplest faces and quiet moments tell the most honest stories."
@@ -50,7 +50,7 @@ const galleryData = [
 
 },
     {
-    id: 9,
+    id: 3,
     src: "photohraphs/bird_eye_Cbe.jpeg",
     title: "A Fierce Gaze",
     story: "The bird’s sharp eyes and intense expression caught my attention, revealing a fierce side of nature. In that single moment, its gaze seemed to speak louder than words, reminding me that even the smallest creatures carry a powerful presence."
