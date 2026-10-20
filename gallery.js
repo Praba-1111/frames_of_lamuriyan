@@ -49,44 +49,74 @@ const galleryData = [
     story: "While travelling through Kerala, I came across a quiet road surrounded by the deep green of the reserve forest. A local auto approaching through the trees added a sense of life and movement to the peaceful landscape. I captured this moment where the simple journey of everyday life met the untouched beauty of Kerala’s forests." 
 
 },
-    /*{
+    {
     id: 9,
-    src: "photohraphs/night_light_highway.jpeg",
-    title: "Into the Mist",
-    story: "The bridge lights glowed through the soft night fog, creating a quiet, cinematic atmosphere. I captured this moment at 1 AM, where the fading mist and distant lights turned an ordinary bridge into a scene full of mystery and beauty."
-  },*/
+    src: "photohraphs/bird_eye_Cbe.jpeg",
+    title: "A Fierce Gaze",
+    story: "The bird’s sharp eyes and intense expression caught my attention, revealing a fierce side of nature. In that single moment, its gaze seemed to speak louder than words, reminding me that even the smallest creatures carry a powerful presence."
+  },
   /*{
-    id: 6,
+    id: 10,
     src: "logo.jpeg",
     title: "Sample Title",
     story: "Sample Story"
   },*/
   /*{
-    id: 7,
+    id: 11,
     src: "logo.jpeg",
     title: "Sample Title",
     story: "Sample Story"
   },*/
   /*{
-    id: 7,
+    id: 12,
     src: "logo.jpeg",
     title: "Sample Title",
     story: "Sample Story"
   },*/
   /*{
-    id: 7,
+    id: 13,
     src: "logo.jpeg",
     title: "Sample Title",
     story: "Sample Story"
   },*/
   /*{
-    id: 7,
+    id: 14,
     src: "logo.jpeg",
     title: "Sample Title",
     story: "Sample Story"
   },*/
   /*{
-    id: 7,
+    id: 15,
+    src: "logo.jpeg",
+    title: "Sample Title",
+    story: "Sample Story"
+  },*/
+  /*{
+    id: 16,
+    src: "logo.jpeg",
+    title: "Sample Title",
+    story: "Sample Story"
+  },*/
+  /*{
+    id: 17,
+    src: "logo.jpeg",
+    title: "Sample Title",
+    story: "Sample Story"
+  },*/
+  /*{
+    id: 18,
+    src: "logo.jpeg",
+    title: "Sample Title",
+    story: "Sample Story"
+  },*/
+  /*{
+    id: 19,
+    src: "logo.jpeg",
+    title: "Sample Title",
+    story: "Sample Story"
+  },*/
+  /*{
+    id: 20,
     src: "logo.jpeg",
     title: "Sample Title",
     story: "Sample Story"
