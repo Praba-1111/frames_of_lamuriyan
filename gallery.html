@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery — frames_of_lamuriyan Visual Stories</title>
+  <meta name="description"
+    content="Explore the complete visual stories gallery by frames_of_lamuriyan. Click any frame to read the captivating story behind it." />
+  <meta property="og:title" content="Gallery — frames_of_lamuriyan" />
+  <meta property="og:description" content="Visual stories through every frame by frames_of_lamuriyan." />
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="gallery.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="gallery-site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand-logo" aria-label="Home">
+        <span class="brand-text">frames_of_lamuriyan</span>
+      </a>
+
+      <div class="header-actions">
+        <a href="index.html" class="back-home-link" aria-label="Back to home">
+          <svg class="back-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <path d="M19 12H5M12 19l-7-7 7-7" />
+          </svg>
+          <span class="back-text-full">Back to Home</span>
+          <span class="back-text-mobile">Home</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="gallery-page-main">
+    <div class="container">
+      <!-- Title Header matching Wix editorial layout -->
+      <div class="gallery-hero-header">
+        <div class="hero-left">
+          <span class="section-tag">[ Curated Archive ]</span>
+          <h1 class="gallery-main-heading">Visual Stories Archive</h1>
+        </div>
+        <div class="hero-right">
+          <p class="gallery-intro-text">
+            Click on any frame to flip the card and read the story behind it. Every moment holds an authentic story of tradition, nature, and life.
+          </p>
+        </div>
+      </div>
+
+      <!-- Gallery Grid populated dynamically or statically (All Photos) -->
+      <div class="gallery-editorial-grid" id="galleryGrid">
+        <!-- Gallery cards populated by gallery.js -->
+      </div>
+    </div>
+  </main>
+
+  <!-- Interactive 3D Flip Card Modal matching Wix Template -->
+  <div class="modal" id="imageModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="closeModal" aria-label="Close modal">&times;</button>
+
+      <div class="modal-card-flipper" id="modalCardFlipper">
+        <div class="flipper-inner" id="flipCardInner">
+          <!-- FRONT: Image View -->
+          <div class="flipper-face flipper-front">
+            <div class="modal-image-container">
+              <img src="" id="modalImg" alt="Selected Image" />
+              <div class="modal-front-meta">
+                <span class="modal-bracket" id="modalBracket">[ Story Frame ]</span>
+                <h3 class="modal-front-title" id="modalFrontTitle">Story Title</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- BACK: Story Text View -->
+          <div class="flipper-face flipper-back">
+            <div class="modal-story-container">
+              <span class="modal-bracket" id="modalBackBracket">[ Story Background ]</span>
+              <h2 class="modal-story-title" id="modalTitle">Story Title</h2>
+              <div class="modal-story-body">
+                <p id="modalStory">Story text goes here...</p>
+              </div>
+              <div class="modal-story-quote">
+                <blockquote>"Every destination has a story, every person carries a unique journey."</blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <div class="modal-controls-row">
+        <button class="wix-btn wix-btn-flip" id="turnBtn">Read Story</button>
+        <div class="modal-nav-btns">
+          <button class="modal-arrow-btn" id="prevBtn" aria-label="Previous image">←</button>
+          <button class="modal-arrow-btn" id="nextBtn" aria-label="Next image">→</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="gallery-footer">
+    <div class="container footer-bottom-bar">
+      <p>© 2026 frames_of_lamuriyan. All Rights Reserved.</p>
+      <a href="index.html" class="back-link">Return to Home Overview ↑</a>
+    </div>
+  </footer>
+
+  <script src="gallery.js?v=3"></script>
+</body>
+
+</html>

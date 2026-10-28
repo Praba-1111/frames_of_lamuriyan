@@ -1,0 +1,49 @@
+# ==============================================================================
+# ROBOTS.TXT FOR: frames_of_lamuriyan
+# WEBSITE HEADING: "Visual Stories Through Every Frame"
+# OFFICIAL INSTAGRAM: https://instagram.com/frames_of_lamuriyan/
+# ==============================================================================
+
+# Allow all legitimate search engines to crawl and index visual stories
+User-agent: *
+Allow: /
+Allow: /photohraphs/
+Allow: /gallery.html
+Disallow: /admin/
+Disallow: /private/
+Disallow: /scratch/
+Disallow: /*.json$
+
+# ==============================================================================
+# BASIC SECURITY & SCRAPER PROTECTION:
+# Block aggressive AI training bots from scraping copyrighted photography
+# ==============================================================================
+
+# OpenAI crawler
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+# Common Crawl
+User-agent: CCBot
+Disallow: /
+
+# Google Extended (AI training)
+User-agent: Google-Extended
+Disallow: /
+
+# Anthropic Claude
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+# ByteDance crawler
+User-agent: Bytespider
+Disallow: /
+
+# Sitemap
+Sitemap: https://framesoflamuriyan.com/sitemap.xml

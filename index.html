@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>frames_of_lamuriyan — Visual Stories Through Every Frame</title>
+  <meta name="description"
+    content="frames_of_lamuriyan — portrait, lifestyle, documentary, travel and wildlife photography. Where every frame holds a moment." />
+  <meta property="og:title" content="frames_of_lamuriyan — Visual Stories" />
+  <meta property="og:description" content="Visual stories through every frame by frames_of_lamuriyan." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Basic Security & Content Protection Headers -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+
+  <!-- Google Fonts: Plus Jakarta Sans for the modern, crisp Wix-style aesthetic -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- ============ SITE HEADER & NAVIGATION ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="#hero" class="brand-logo" aria-label="frames_of_lamuriyan home">
+        <span class="brand-text">frames_of_lamuriyan</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#featured" class="nav-link">Featured</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="gallery.html" class="nav-cta-btn">View Full Gallery</a>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu" aria-expanded="false"
+        aria-controls="mobileDrawer">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu Overlay -->
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="mobile-drawer-content">
+      <nav class="mobile-nav" aria-label="Mobile Navigation">
+        <ul class="mobile-nav-links">
+          <li><a href="#hero" class="mobile-link">Home</a></li>
+          <li><a href="#about" class="mobile-link">About</a></li>
+          <li><a href="#portfolio" class="mobile-link">Portfolio</a></li>
+          <li><a href="#featured" class="mobile-link">Featured Stories</a></li>
+          <li><a href="#contact" class="mobile-link">Contact</a></li>
+          <li><a href="gallery.html" class="mobile-link mobile-highlight">Explore Full Gallery →</a></li>
+        </ul>
+      </nav>
+
+      <div class="mobile-drawer-footer">
+        <p class="drawer-contact-title">Get in touch</p>
+        <a href="tel:+919698834366" class="drawer-contact-link">+91 9698834366</a>
+        <a href="https://instagram.com/frames_of_lamuriyan/" target="_blank" rel="noopener"
+          class="drawer-contact-link">@frames_of_lamuriyan</a>
+      </div>
+    </div>
+  </div>
+
+  <main id="mainContent">
+    <!-- ============ 1. HERO SECTION (Wix Template Layout) ============ -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <!-- Top Hero Row: Big Headline on Left, Subtitle & CTA on Right -->
+        <div class="hero-header-row">
+          <div class="hero-title-col">
+            <h1 class="hero-headline">
+              Visual Stories Through Every Frame
+            </h1>
+          </div>
+          <div class="hero-desc-col">
+            <p class="hero-genre-tags">
+              Portrait • Lifestyle • Documentary • Travel • Wildlife
+            </p>
+            <p class="hero-bio-tagline">
+              Where every frame holds a moment, revealing the soul of people, places, and wildlife.
+            </p>
+            <div class="hero-action-group">
+              <a href="#portfolio" class="wix-btn wix-btn-outline">View My Work</a>
+              <a href="gallery.html" class="wix-btn wix-btn-solid">Open Gallery</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 2. EDITORIAL GALLERY SECTION ("Journeys Through the Lens") ============ -->
+    <section class="section portfolio-section" id="portfolio">
+      <div class="container">
+        <!-- Section Header matching Wix template -->
+        <div class="section-header-split">
+          <div class="section-header-left">
+            <span class="section-tag">[ Portfolio & Stories ]</span>
+            <h2 class="section-title">Journeys Through the Lens</h2>
+          </div>
+          <div class="section-header-right">
+            <p class="section-desc">
+              A curated collection of moments, cultures, and vistas from travels across Kerala, Tamil Nadu, and beyond.
+              Click any photograph to read the story behind the frame.
+            </p>
+          </div>
+        </div>
+
+        <!-- Wix Asymmetric Editorial Gallery Grid (All 9 Photos) -->
+        <div class="editorial-grid" id="editorialGrid">
+          <!-- Item 01: Kathakali -->
+          <article class="editorial-card col-left" data-category="culture" data-id="1">
+            <div class="card-meta">
+              <span class="meta-tag">[ Kerala • Traditional Art ]</span>
+            </div>
+            <div class="card-media">
+              <img src="photohraphs/Kathakali.jpeg" alt="Eyes of Kathakali" loading="lazy" />
+              <div class="card-hover-overlay">
+                <span class="overlay-btn">Read Story</span>
+              </div>
+            </div>
+            <div class="card-caption">
+              <h3 class="card-title">Eyes of Kathakali</h3>
+              <span class="card-index">01</span>
+            </div>
+          </article>
+
+          <!-- Item 02: Mohiniyattam -->
+          <article class="editorial-card col-right" data-category="culture" data-id="2">
+            <div class="card-meta">
+              <span class="meta-tag">[ Kerala • Classical Dance ]</span>
+            </div>
+            <div class="card-media">
+              <img src="photohraphs/Mohiniyattam.jpeg" alt="Mohiniyattam" loading="lazy" />
+              <div class="card-hover-overlay">
+                <span class="overlay-btn">Read Story</span>
+              </div>
+            </div>
+            <div class="card-caption">
+              <h3 class="card-title">Mohiniyattam</h3>
+              <span class="card-index">02</span>
+            </div>
+          </article>
+
+          <!-- Item 03: Stranger Chennai -->
+          <article class="editorial-card col-left" data-category="documentary" data-id="4">
+            <div class="card-meta">
+              <span class="meta-tag">[ Chennai • Documentary ]</span>
+            </div>
+            <div class="card-media">
+              <img src="photohraphs/Stranger_Chennai.jpeg" alt="Between Trains and Dreams" loading="lazy" />
+              <div class="card-hover-overlay">
+                <span class="overlay-btn">Read Story</span>
+              </div>
+            </div>
+            <div class="card-caption">
+              <h3 class="card-title">Between Trains and Dreams</h3>
+              <span class="card-index">03</span>
+            </div>
+          </article>
+
+          <!-- Item 04: Bird Eye Coimbatore -->
+          <article class="editorial-card col-right" data-category="wildlife" data-id="3">
+            <div class="card-meta">
+              <span class="meta-tag">[ Coimbatore • Wildlife ]</span>
+            </div>
+            <div class="card-media">
+              <img src="photohraphs/bird_eye_Cbe.jpeg" alt="A Fierce Gaze" loading="lazy" />
+              <div class="card-hover-overlay">
+                <span class="overlay-btn">Read Story</span>
+              </div>
+            </div>
+            <div class="card-caption">
+              <h3 class="card-title">A Fierce Gaze</h3>
+              <span class="card-index">04</span>
+            </div>
+          </article>
+
+          <!-- Item 05: Fish Wild -->
+          <article class="editorial-card col-left" data-category="wildlife" data-id="5">
+            <div class="card-meta">
+              <span class="meta-tag">[ Lakeside • Wildlife & Nature ]</span>
+            </div>
+            <div class="card-media">
+              <img src="photohraphs/Fish_wild.jpeg" alt="After a Night of Rain" loading="lazy" />
+              <div class="card-hover-overlay">
+                <span class="overlay-btn">Read Story</span>
+              </div>
+            </div>
+            <div class="card-caption">
+              <h3 class="card-title">After a Night of Rain</h3>
+              <span class="card-index">05</span>
+            </div>
+          </article>
+
+          <!-- Item 06: Dog Street -->
+          <article class="editorial-card col-right" data-category="documentary" data-id="6">
+            <div class="card-meta">
+              <span class="meta-tag">[ Street • Monochromatic ]</span>
+            </div>
+            <div class="card-media">
+              <img src="photohraphs/Dog_Street.jpeg" alt="Light Finds Everyone" loading="lazy" />
+              <div class="card-hover-overlay">
+                <span class="overlay-btn">Read Story</span>
+              </div>
+            </div>
+            <div class="card-caption">
+              <h3 class="card-title">Light Finds Everyone</h3>
+              <span class="card-index">06</span>
+            </div>
+          </article>
+
+          <!-- Item 07: Anaikatti Hill -->
+          <article class="editorial-card col-left" data-category="landscape" data-id="7">
+            <div class="card-meta">
+              <span class="meta-tag">[ Anaikatti Hills • Landscape ]</span>
+            </div>
+            <div class="card-media">
+              <img src="photohraphs/Anaikatti_Hill.jpeg" alt="Between Sun and Clouds" loading="lazy" />
+              <div class="card-hover-overlay">
+                <span class="overlay-btn">Read Story</span>
+              </div>
+            </div>
+            <div class="card-caption">
+              <h3 class="card-title">Between Sun and Clouds</h3>
+              <span class="card-index">07</span>
+            </div>
+          </article>
+
+          <!-- Item 08: Stranger Anaikatti -->
+          <article class="editorial-card col-right" data-category="documentary" data-id="9">
+            <div class="card-meta">
+              <span class="meta-tag">[ Anaikatti • Portrait ]</span>
+            </div>
+            <div class="card-media">
+              <img src="photohraphs/Stranger_Anaikatti.jpeg" alt="A Quiet Moment" loading="lazy" />
+              <div class="card-hover-overlay">
+                <span class="overlay-btn">Read Story</span>
+              </div>
+            </div>
+            <div class="card-caption">
+              <h3 class="card-title">A Quiet Moment</h3>
+              <span class="card-index">08</span>
+            </div>
+          </article>
+
+          <!-- Item 09: Kerala Village Forest -->
+          <article class="editorial-card col-left" data-category="landscape" data-id="8">
+            <div class="card-meta">
+              <span class="meta-tag">[ Kerala • Reserve Forest ]</span>
+            </div>
+            <div class="card-media">
+              <img src="photohraphs/Kerala_village_forest.jpeg" alt="Through Kerala’s Green Roads" loading="lazy" />
+              <div class="card-hover-overlay">
+                <span class="overlay-btn">Read Story</span>
+              </div>
+            </div>
+            <div class="card-caption">
+              <h3 class="card-title">Through Kerala’s Green Roads</h3>
+              <span class="card-index">09</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="gallery-cta-strip">
+          <p class="cta-tagline">WHERE EVERY FRAME HOLDS A MOMENT.</p>
+          <a href="gallery.html" class="wix-btn wix-btn-solid">Open Dedicated Gallery Page</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3. ABOUT SECTION (Dark Contrast Block matching Wix Template) ============ -->
+    <section class="section about-section dark-block" id="about">
+      <div class="container">
+        <div class="about-grid-wix">
+          <!-- Left: Bio & Philosophy -->
+          <div class="about-content-col">
+            <span class="about-tag">[ About the Photographer ]</span>
+            <h2 class="about-heading">Hi, I'm Loga Prabakar</h2>
+
+            <div class="about-bio-text">
+              <p>
+                As a portrait, lifestyle, documentary, travel, and wildlife photographer, I believe every destination
+                has a story, every person carries a unique journey, and every wild creature reflects the extraordinary
+                beauty of nature.
+              </p>
+              <blockquote class="about-quote">
+                "Some moments disappear in a heartbeat. A photograph lets them breathe forever."
+              </blockquote>
+            </div>
+
+            <!-- Experience and Gear Stats Cards -->
+            <div class="about-stats-grid">
+              <div class="stat-card">
+                <div class="stat-number-wrap">
+                  <span class="stat-number" data-count="5">5</span><span class="stat-plus">+</span>
+                </div>
+                <p class="stat-label">Years of Visual Storytelling</p>
+              </div>
+
+              <div class="stat-card">
+                <p class="stat-card-title">Camera Gear</p>
+                <ul class="gear-list">
+                  <li><span class="gear-dot"></span> Mobile Phone</li>
+                  <li><span class="gear-dot"></span> Nikon</li>
+                  <li><span class="gear-dot"></span> Canon</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="about-action">
+              <a href="#contact" class="wix-btn wix-btn-white">Get in Touch</a>
+            </div>
+          </div>
+
+          <!-- Right: Photographer Feature Frame -->
+          <div class="about-visual-col">
+            <div class="about-frame">
+              <img src="photohraphs\me_profile.jpeg" alt="Landscape journey by frames_of_lamuriyan"
+                class="about-portrait-img" loading="lazy" />
+              <div class="about-frame-badge">
+                <span>Preserving Real-Life Moments</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 4. FEATURED STORIES CAROUSEL (Wix Template "Featured Project") ============ -->
+    <section class="section featured-section" id="featured">
+      <div class="container">
+        <div class="section-header-split">
+          <div class="section-header-left">
+            <span class="section-tag">[ Curated Highlights ]</span>
+            <h2 class="section-title">Featured Stories</h2>
+          </div>
+          <div class="section-header-right">
+            <p class="section-desc">
+              Highlights from the wild reserves, traditional arts, and candid human narratives.
+            </p>
+            <div class="carousel-nav-arrows">
+              <button class="carousel-arrow" id="carouselPrev" aria-label="Previous slide">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M15 18l-6-6 6-6" />
+                </svg>
+              </button>
+              <button class="carousel-arrow" id="carouselNext" aria-label="Next slide">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Horizontal Scroll Carousel -->
+        <div class="featured-carousel-track" id="featuredCarousel">
+
+          <!-- =============================================================
+               📸 HOW TO ADD / EDIT FEATURED PHOTO QUOTES:
+               - <h3>: Your Photo Title (e.g., Eyes of Kathakali)
+               - <p>:  Your Photo Quote / Tagline (e.g., Tradition, emotion...)
+               - data-id: The number matching the photo id in script.js
+               ============================================================= -->
+
+          <!-- Slide 1 -->
+          <div class="featured-slide" data-id="8">
+            <div class="slide-card">
+              <div class="slide-image-wrap">
+                <img src="photohraphs/Kerala_village_forest.jpeg" alt="Through Kerala’s Green Roads" loading="lazy" />
+                <span class="slide-tag">[ Kerala • Reserve Forest ]</span>
+              </div>
+              <div class="slide-info">
+                <!-- 1. PHOTO TITLE -->
+                <h3>Through Kerala’s Green Roads</h3>
+                <!-- 2. PHOTO QUOTE / TAGLINE -->
+                <p>A quiet road surrounded by the deep green of the reserve forest.</p>
+                <!-- 3. READ STORY BUTTON -->
+                <button class="slide-read-btn" data-id="8">Read Story →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="featured-slide" data-id="1">
+            <div class="slide-card">
+              <div class="slide-image-wrap">
+                <img src="photohraphs/Kathakali.jpeg" alt="Eyes of Kathakali" loading="lazy" />
+                <span class="slide-tag">[ Kerala • Traditional Art ]</span>
+              </div>
+              <div class="slide-info">
+                <!-- 1. PHOTO TITLE -->
+                <h3>Eyes of Kathakali</h3>
+                <!-- 2. PHOTO QUOTE / TAGLINE -->
+                <p>Tradition, emotion, and art came together in one powerful look.</p>
+                <!-- 3. READ STORY BUTTON -->
+                <button class="slide-read-btn" data-id="1">Read Story →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="featured-slide" data-id="2">
+            <div class="slide-card">
+              <div class="slide-image-wrap">
+                <img src="photohraphs/Mohiniyattam.jpeg" alt="Mohiniyattam" loading="lazy" />
+                <span class="slide-tag">[ Kerala • Classical Dance ]</span>
+              </div>
+              <div class="slide-info">
+                <!-- 1. PHOTO TITLE -->
+                <h3>Mohiniyattam</h3>
+                <!-- 2. PHOTO QUOTE / TAGLINE -->
+                <p>Elegance in posture, flowing costume, and quiet grace.</p>
+                <!-- 3. READ STORY BUTTON -->
+                <button class="slide-read-btn" data-id="2">Read Story →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="featured-slide" data-id="4">
+            <div class="slide-card">
+              <div class="slide-image-wrap">
+                <img src="photohraphs/Stranger_Chennai.jpeg" alt="Between Trains and Dreams" loading="lazy" />
+                <span class="slide-tag">[ Chennai Central • Life ]</span>
+              </div>
+              <div class="slide-info">
+                <h3>Between Trains and Dreams</h3>
+                <p>Unseen lives, quiet struggles, and dreams moving forward.</p>
+                <button class="slide-read-btn" data-id="4">Read Story →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 5 -->
+          <div class="featured-slide" data-id="7">
+            <div class="slide-card">
+              <div class="slide-image-wrap">
+                <img src="photohraphs/Anaikatti_Hill.jpeg" alt="Between Sun and Clouds" loading="lazy" />
+                <span class="slide-tag">[ Anaikatti • Hills ]</span>
+              </div>
+              <div class="slide-info">
+                <h3>Between Sun and Clouds</h3>
+                <p>Soft evening light and clouds bringing dramatic calm to the hills.</p>
+                <button class="slide-read-btn" data-id="7">Read Story →</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 5. CONTACT SECTION (Clean Connect Showcase - No Form) ============ -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card-clean">
+          <div class="contact-card-header">
+            <span class="section-tag">[ Direct Connect ]</span>
+            <h2 class="contact-headline">Preserve Beautiful Stories.</h2>
+            <p class="contact-subtext">
+              Every destination has a story, every person carries a unique journey, and every wild creature reflects the
+              extraordinary beauty of nature. Reach out directly for assignments, print inquiries, or visual
+              collaborations.
+            </p>
+          </div>
+
+          <div class="contact-channels-grid">
+            <!-- Instagram Channel -->
+            <a href="https://instagram.com/frames_of_lamuriyan/" target="_blank" rel="noopener noreferrer"
+              class="contact-channel-card">
+              <div class="channel-icon-wrap">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </div>
+              <div class="channel-details">
+                <span class="channel-label">Instagram Portfolio</span>
+                <span class="channel-value">@frames_of_lamuriyan</span>
+                <span class="channel-action">Open Instagram Profile →</span>
+              </div>
+            </a>
+
+            <!-- Phone Channel -->
+            <a href="tel:+919698834366" class="contact-channel-card">
+              <div class="channel-icon-wrap">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                  </path>
+                </svg>
+              </div>
+              <div class="channel-details">
+                <span class="channel-label">Direct Phone</span>
+                <span class="channel-value">+91 9698834366</span>
+                <span class="channel-action">Call / WhatsApp →</span>
+              </div>
+            </a>
+
+            <!-- Specialties Channel -->
+            <div class="contact-channel-card info-only">
+              <div class="channel-icon-wrap">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                  <circle cx="12" cy="13" r="4"></circle>
+                </svg>
+              </div>
+              <div class="channel-details">
+                <span class="channel-label">Specializations</span>
+                <span class="channel-value">Portrait • Lifestyle • Documentary • Travel • Wildlife</span>
+                <span class="channel-action">Where every frame holds a moment</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ 6. MASSIVE FOOTER (Matching Wix Template with logo.jpeg Cover) ============ -->
+  <footer class="site-footer">
+    <div class="footer-hero-overlay">
+      <div class="container footer-content-wrap">
+        <!-- Laptop UI Cover Showcase Badge -->
+        <div class="footer-cover-showcase">
+          <div class="footer-cover-logo-wrap">
+            <img src="logo.jpeg" alt="frames_of_lamuriyan brand logo" class="footer-cover-image" />
+          </div>
+          <div class="footer-cover-text">
+            <span class="footer-cover-tag">[ Official Visual Archive ]</span>
+            <h3 class="footer-cover-motto">WHERE EVERY FRAME HOLDS A MOMENT</h3>
+          </div>
+        </div>
+
+        <!-- Giant Typography Banner -->
+        <div class="footer-giant-title">
+          <span>frames_of_lamuriyan</span>
+        </div>
+
+        <!-- Footer Bottom Links & Info -->
+        <div class="footer-links-grid">
+          <div class="footer-col">
+            <h4 class="footer-col-title">Navigation</h4>
+            <ul class="footer-nav-list">
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#featured">Featured Stories</a></li>
+              <li><a href="gallery.html">Full Gallery</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-col-title">Social & Direct</h4>
+            <ul class="footer-nav-list">
+              <li>
+                <a href="https://instagram.com/frames_of_lamuriyan/" target="_blank" rel="noopener noreferrer">Instagram
+                  (@frames_of_lamuriyan)</a>
+              </li>
+              <li><a href="tel:+919698834366">Phone: +91 9698834366</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-col-title">Philosophy</h4>
+            <p class="footer-quote-text">
+              "A photograph doesn't stop time—it captures moments that last forever."
+            </p>
+          </div>
+        </div>
+
+        <div class="footer-bottom-bar">
+          <p class="copyright-text">© 2026 frames_of_lamuriyan. All Rights Reserved.</p>
+          <a href="#hero" class="back-to-top-link" aria-label="Scroll back to top">Back to top ↑</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ INTERACTIVE STORY MODAL (Flip Card Experience) ============ -->
+  <div class="story-modal" id="storyModal" aria-hidden="true" role="dialog" aria-modal="true"
+    aria-labelledby="modalStoryTitle">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close dialog">&times;</button>
+
+      <div class="modal-card-flipper" id="modalCardFlipper">
+        <div class="flipper-inner" id="flipperInner">
+          <!-- FRONT: High-Res Image View -->
+          <div class="flipper-face flipper-front">
+            <div class="modal-image-container">
+              <img src="" id="modalImage" alt="Selected frame" />
+              <div class="modal-front-meta">
+                <span class="modal-bracket" id="modalBracket">[ Story Frame ]</span>
+                <h3 class="modal-front-title" id="modalFrontTitle">Story Title</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- BACK: Deep Story Text View -->
+          <div class="flipper-face flipper-back">
+            <div class="modal-story-container">
+              <span class="modal-bracket" id="modalBackBracket">[ Story Background ]</span>
+              <h2 class="modal-story-title" id="modalStoryTitle">Story Title</h2>
+              <div class="modal-story-body">
+                <p id="modalStoryText">Story details...</p>
+              </div>
+              <div class="modal-story-quote">
+                <blockquote>"Every destination has a story, every person carries a unique journey."</blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Bottom Controls -->
+      <div class="modal-controls-row">
+        <button class="wix-btn wix-btn-flip" id="modalFlipBtn">Read Story</button>
+        <div class="modal-nav-btns">
+          <button class="modal-arrow-btn" id="modalPrevBtn" aria-label="Previous image">←</button>
+          <button class="modal-arrow-btn" id="modalNextBtn" aria-label="Next image">→</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
